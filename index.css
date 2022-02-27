@@ -252,7 +252,7 @@ li{
 
 
 
-/* fundet på nettet*/
+
 
 .link-animation::after {
     content: '';
@@ -260,12 +260,12 @@ li{
     width: 0;
     height: 2px;
     background: #000;
-    transition: width .3s;
+    transition:  .3s;
 }
 
 .link-animation:hover::after {
     width: 100%;
-    transition: width .3s;
+   
 }
 
 
